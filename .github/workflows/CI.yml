@@ -23,7 +23,5 @@ jobs:
         run: yarn hardhat test
         env:
           REPORT_GAS: true
-      # - name: Coveralls
-      #   uses: coverallsapp/github-action@master
-      #   with:
-      #     github-token: ${{ secrets.GITHUB_TOKEN }}
+      - name: Run codechecks
+        run: yarn codechecks
