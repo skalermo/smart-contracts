@@ -45,6 +45,7 @@
   "author": "",
   "license": "SEE LICENSE IN LICENSE.md",
   "devDependencies": {
+    "@codechecks/client": "0.1.13-beta",
     "@typechain/ethers-v5": "^6.0.5",
     "@types/chai": "^4.2.11",
     "@types/mocha": "^7.0.2",
