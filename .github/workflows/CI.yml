@@ -19,7 +19,7 @@ jobs:
       - name: build
         run: yarn build
       - name: test with gas reporter
-        run: yarn test
+        run: yarn hardhat test
         env:
           REPORT_GAS: true
       # - name: Coveralls
