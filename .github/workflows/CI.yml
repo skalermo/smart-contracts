@@ -24,7 +24,7 @@ jobs:
         env:
           REPORT_GAS: true
       - name: Run codechecks
-        run: DEBUG="codechecks:client:*" yarn codechecks
+        run: DEBUG=codechecks:* yarn codechecks
         env:
           CC_SECRET: ${{ secrets.CC_SECRET }}
 
