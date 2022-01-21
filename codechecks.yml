@@ -1,3 +1,4 @@
 checks:
   - name: eth-gas-reporter/codechecks
-branches: ["main"]
+settings:
+  branches: ["main"]
