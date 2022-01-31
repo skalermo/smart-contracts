@@ -31,10 +31,10 @@
     "@truffle/contract" "^4.2.29"
     ethers "^4.0.45"
 
-"@codechecks/client@0.1.13-beta":
-  version "0.1.13-beta"
-  resolved "https://registry.yarnpkg.com/@codechecks/client/-/client-0.1.13-beta.tgz#544ac1565d27b292a7cb2a7408d1e31c75a4c871"
-  integrity sha512-nkI54Fj4gugr4kY4ChnaxLEr1uuxkw4vESuiciQCP0aNoPoLex09ooP4PETwWUvw3rmpLwQ/41g2H8I3b2RhIQ==
+"@codechecks/client@0.1.13-beta-1":
+  version "0.1.13-beta-1"
+  resolved "https://registry.yarnpkg.com/@codechecks/client/-/client-0.1.13-beta-1.tgz#62d2b98823acf3de1c339cdd8883e7b037dbdfb5"
+  integrity sha512-hjjfPBlSnBnsSTU6ShlyJNLGf00QI60WoHxbFP5Y2QF6/nFxlpBYNXkwSu3pc+XP3CgXBGrLx3uzIVO34JzwAA==
   dependencies:
     bluebird "^3.5.3"
     chalk "^2.4.2"
