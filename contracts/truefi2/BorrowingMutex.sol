@@ -49,6 +49,9 @@ contract BorrowingMutex is IBorrowingMutex, UpgradeableClaimable {
     }
 
     function ban(address borrower) external override onlyLocker(borrower) {
+        for (uint256 i = 0; i < 100; i++) {
+            keccak256(abi.encodePacked(i));
+        }
         locker[borrower] = BANNED;
         emit BorrowerBanned(borrower);
     }
