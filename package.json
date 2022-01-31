@@ -41,7 +41,7 @@
     "docs": "npx solidity-docgen --solc-module solc-0.6 -i contracts -o docs",
     "slither": "./slither.sh",
     "coverage": "bash ./runCoverage.sh",
-    "codechecks": "codechecks"
+    "codechecks": "codechecks codechecks.yml"
   },
   "author": "",
   "license": "SEE LICENSE IN LICENSE.md",
